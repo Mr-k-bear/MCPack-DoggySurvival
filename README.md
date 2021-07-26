@@ -1,4 +1,5 @@
 # MCPack-DoggySurvival
+狗狗生存
 
 When you squat down, jump and circle, you will get OP equipment!
 
@@ -6,6 +7,7 @@ When you squat down, jump and circle, you will get OP equipment!
 
 
 # Target
+目标
 
 When you do this every time: squat, turn around and jump.
 
@@ -25,8 +27,40 @@ The enchant attribute of equipment can be a little random
 
 装备的附魔属性可以随机一点
 
+# Author
+作者
+
+## 数据包作者
+
+@MrKBear
+
+## 参与 OP 装备指令实现
+
+@lengluoyi
+
+@酱香卤鹅
+
+@zomby
+
+## 参与 OP 装备设计
+
+@晓觉儿
+
+@AlabTNT
+
+## 特别感谢(提供想法)
+
+@小熊
+
+@白什么羽
+
+@御坂御坂酱awa
+
+@紊莫
+
 
 # OP Equipments Table
+OP装备表
 
 | 编号 | 物品         | 设计者     | 实现者     | 备注                                                               | 是否实现 |
 |----|------------|---------|---------|------------------------------------------------------------------|------|
@@ -80,3 +114,16 @@ The enchant attribute of equipment can be a little random
 | 48 | 请你吃蛋       | MrKBear | MrKBear | 僵尸疣猪蛋                                                            | 已经实现 |
 | 49 | 家乡水        | MrKBear | MrKBear | 岩浆桶                                                              | 已经实现 |
 | 50 | 三连         | MrKBear | MrKBear | 速度+急迫药水                                                          | 已经实现 |
+
+
+# Reasons why other ideas were not adopted
+其他想法未采纳的原因
+
+| 物品    | 设计者      | 描述                                                      | 未采纳原因            |
+|-------|----------|---------------------------------------------------------|------------------|
+| 御坂の硬币 | 御坂御坂酱awa | 一个铁踏板，放置踩上去会有漂浮效果，然后在脚下生成一个3*3，深40格的坑，可用于前期采矿（坑人也行）（滑稽） | 实现困难             |
+| 御坂の木棍 | 御坂御坂酱awa | 一个木棍，左键单击可以生成一个由TNT组成的屋子，外围有一圈黑曜石，且TNT自动点燃，使用者会被困在里面    | 实现困难             |
+| 一拳    | 紊莫       | 真的只是“一”拳                                                | 指令存在问题，且未能理解这个设计 |
+| 卡慕头   | AlabTNT  | (实现者留言)？？？                                              | ？？？              |
+| 我怎么了  | 白什么羽     | 身上不断撒下无法丢掉合成的烈焰棒，20秒                                    | 时间截止，数据包已归档      |
+
