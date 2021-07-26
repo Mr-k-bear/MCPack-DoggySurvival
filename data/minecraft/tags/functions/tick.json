@@ -1,0 +1,11 @@
+{
+    "values": [
+        "doggy_survival:tick",
+        "op_equip:cen_head_tick",
+        "op_equip:q3_dc_tick",
+        "op_equip:snowball_boom_tick",
+        "op_equip:lazy_dog_boot_tick",
+        "wcraftopitem:main",
+        "op_equip:equi_tick"
+    ]
+}

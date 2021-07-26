@@ -1,0 +1,3 @@
+execute as @a at @s if data entity @s Inventory[{Slot:102b}].tag{Tags:["0C165"]} run function wcraftopitem:time
+execute as @a at @s if data entity @s Inventory[{Slot:102b}].tag{Tags:["0C165"]} if score @s wcraft.optime matches ..0 run item replace entity @s armor.chest with air
+execute as @a at @s unless data entity @s Inventory[{Slot:102b}].tag{Tags:["0C165"]} unless score @s wcraft.optime matches 1800 run scoreboard players set @s wcraft.optime 1800
